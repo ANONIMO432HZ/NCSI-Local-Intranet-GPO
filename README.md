@@ -122,6 +122,25 @@ Cuando Windows intente contactar a esos dominios, será redirigido al Apache de 
 
 > 💡 Si tienes dudas sobre la instalación, busca videos en Youtube como: _Descargar, Instalar y Configurar XAMPP (Apache + MySQL + PHP) | Windows 10_11.
 
+**Opcional si solo quieres deshabilitar NCSI sin muchas complicaciones con un simple paso (es posible que este metodo no desbloquee todas las funcionalidades que emular un servidor local ncsi)**
+
+* [Video tutorial de referencia](https://youtu.be/sUNa-fzk9F0)
+
+Antes de modificar el registro en recomendable hacer un backup.reg del editor de registro
+
+Paso 1.
+
+Abrir Regedit: 
+Tecla windows + R = regedit
+
+Ruta: Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet
+
+Paso 2.
+Ubicar el archivo "EnableActiveProbing" y con doble clic cambiar el información de valor "1" por "0" sin comillas, aceptar y cerrar.
+
+Paso 3.
+Para revertir simplemente cambiar el información de valor "0" a "1".
+
 ---
 
 ## 🚀 Suite de Automatización Completa
@@ -204,25 +223,6 @@ Para información detallada sobre configuración, uso avanzado y solución de pr
 - **`NCSI-Script-Documentation.md`** - Guía detallada de uso
 - **`NCSI-Scripts-README.md`** - Documentación completa de la suite
 - **Archivos de log** en `%TEMP%\NCSI-*.log` para diagnósticos
-
-**Opcional si solo quieres deshabilitar NCSI sin muchas complicaciones con un simple paso (es posible que este metodo no desbloquee todas las funcionalidades que emular un servidor local ncsi)**
-
-* [Video tutorial de referencia](https://youtu.be/sUNa-fzk9F0)
-
-Antes de modificar el registro en recomendable hacer un backup.reg del editor de registro
-
-Paso 1.
-
-Abrir Regedit: 
-Tecla windows + R = regedit
-
-Ruta: Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet
-
-Paso 2.
-Ubicar el archivo "EnableActiveProbing" y con doble clic cambiar el información de valor "1" por "0" sin comillas, aceptar y cerrar.
-
-Paso 3.
-Para revertir simplemente cambiar el información de valor "0" a "1".
 
 ### B. Configuración de GPO (Política de Grupo) ✅ MÉTODO OFICIAL PROBADO
 
