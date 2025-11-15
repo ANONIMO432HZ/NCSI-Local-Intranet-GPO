@@ -276,4 +276,4 @@ Consulte el archivo **`LICENSE`** para obtener más detalles.
 * [NCSI Overview (Descripción general del NCSI) - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/networking/ncsi/ncsi-overview)
 * [NCSI Frequently Asked Questions (Preguntas frecuentes sobre NCSI) - Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/networking/ncsi/ncsi-frequently-asked-questions)
 * [Cómo recopilar datos para diagnosticar problemas de NCSI](https://learn.microsoft.com/en-us/windows-server/networking/ncsi/ncsi-troubleshooting-guide)
-* [How to Fix ‘Msftconnecttest Redirect’ Error on Windows 10 [Tutorial]](https://youtu.be/sUNa-fzk9F0)# NCSI-Local-Intranet-GPO-
+* [How to Fix ‘Msftconnecttest Redirect’ Error on Windows 10 [Tutorial]](https://youtu.be/sUNa-fzk9F0)
