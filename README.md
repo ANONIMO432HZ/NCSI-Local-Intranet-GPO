@@ -133,8 +133,10 @@ Paso 1.
 Abrir Regedit: 
 Tecla windows + R = regedit
 
-Ruta: Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet
-
+Ruta:
+```
+Equipo\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet
+```
 Paso 2.
 Ubicar el archivo "EnableActiveProbing" y con doble clic cambiar el información de valor "1" por "0" sin comillas, aceptar y cerrar.
 
